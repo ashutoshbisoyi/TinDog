@@ -1,0 +1,303 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+#title{
+	background-color:#ff4c68;
+	color: white;
+	padding-bottom: 70px;
+}
+.container-fluid{
+	padding: 3% 15%;
+}
+.navbar{
+	
+	padding: 0 0 4.5rem 0;
+}
+.navbar-brand{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+.nav-item{
+	padding: 0 18px;
+}
+.nav-link{
+	font-weight: lighter;
+	font-size: 1.2rem;
+}
+h1{
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	font-size: 3.5rem;
+	line-height: 1.5;
+}
+h2{
+	font-size: 3rem;
+	line-height: 1.5;
+	font-family: serif;
+	font-weight: normal;
+	color: #fff;
+}
+.my-btn{
+
+	margin: 5% 3% 5% 0;
+}
+.title-image{
+	width: 60%;
+	transform: rotate(25deg);
+	position: absolute;
+	right: 30%
+	
+}
+#features{
+	background-color: white;
+
+}
+#feature-cf{
+	padding: 7% 15%;
+	background-color: white;
+	position: relative;
+
+}
+.feature-div .fas{
+	color: #ef8172;
+
+
+}
+.feature-div .fas:hover{
+	color: #ff4c68;
+}
+.feature-div h3{
+	margin: 15px 0;
+	font-family:sans-serif;
+	font-size: 1.5rem;
+	font-weight: bold;
+
+}
+p{
+	color: #8f8f8f;
+}
+.feature-div{
+	text-align: center;
+	padding: 50px 40px;
+}
+
+#testimonials{
+	background-color: #ef8172;
+	text-align: center
+
+}
+#testimonials-cf{
+	padding: 130px 150px;
+	color: #fff;
+
+}
+.carousel-image{
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	margin-top: 30px;
+}
+#mclady{
+	border-radius: 100%;
+}
+#press{
+	background-color: #ef8172;
+	text-align: center;
+	padding: 90px 70px 100px 70px;
+
+}
+.press-icons{
+	width: 18%;
+	padding-right: 50px; 
+}
+#author{
+	font-weight: lighter;
+	color: #f2f2f2;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+.carousel-icon{
+	margin-top: 150px;
+
+}
+#pricing{
+	text-align: center;
+	padding: 100px 100px;
+}
+.card{
+	padding:0;
+	width: 80%;
+}
+#cta{
+	background-color: #ff4c68;
+	text-align: center;
+	padding: 90px 70px 50px 70px;
+}
+#ful{
+	width: 15%;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+@media(max-width: 1200px){
+	h1{
+		font-size: 3rem;
+	}
+	.title-image{
+	width: 100%;
+	transform: rotate(25deg);
+	position: absolute;
+	right: 30%;
+	}
+}
+@media(max-width: 991px){
+	h1{
+		font-size: 3rem;
+	}
+	.title-image{
+	width: 100%;
+	transform: rotate(25deg);
+	position: absolute;
+	right: 10%;
+	top: 20%;
+	}
+}
+
+@media(max-width: 992px){
+	h1{
+		font-size: 2.3rem !important;
+	}
+	h2{
+		font-size: 1.5rem;
+	}
+	.title-row-text{
+		text-align: center !important;
+		
+	}
+	.title-image{
+	width: 50%;
+	transform: rotate(0deg);
+	position:absolute;
+	right:25%;
+	top: 20%;
+
+	}
+	.press-icons{
+	width: 20%;
+	padding-right: 20px; 
+}
+#ful{
+	width: 35%;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+	.title-row-image{
+		text-align: center !important;
+	}
+	#title{
+	background-color:#ff4c68;
+	color: white;
+	padding-bottom: 300px;
+
+}
+}
+
+@media(max-width: 411px){
+	h1{
+		font-size: 1.8rem !important;
+		color: #353535;
+		
+	}
+	h2{
+	font-size: 1rem;
+	line-height: 1;
+	width: 100%;
+	font-family: serif;
+	font-weight: normal;
+	color: #fff;
+	}
+	.title-image{
+	width: 70%;
+	transform: rotate(0deg);
+	position:absolute;
+	right:15%;
+	top: 20%;
+
+	}
+	.btn{
+		font-size: 15px;
+		margin-bottom: 40px;
+	}
+	#title{
+	background-color:#ff4c68;
+	color: white;
+	padding-bottom: 250px;
+	}
+	.navbar-brand{
+	font-size: 1.3rem;
+	font-weight: normal;
+}
+#testimonials-cf{
+	padding: 70px 70px 130px 70px;
+	color: #fff;
+
+}
+.carousel-image{
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	margin-top: 30px;
+	margin-right: 50px;
+}
+#press{
+	background-color: #ef8172;
+	text-align: center;
+	padding: 50px 10px 20px 10px;
+
+}
+.press-icons{
+	width: 25%;
+	padding-right: 20px; 
+}
+#author{
+	font-weight: lighter;
+	color: #f2f2f2;
+	margin-left: 2px;
+	margin-top: 10px;
+}
+#pricing{
+	padding: 100px 30px;
+}
+#feature-cf{
+	padding: 7% 7%;
+}
+
+.feature-div h3{
+	font-size: 1.3rem;
+}
+.feature-div{
+	text-align: center;
+	padding: 25px 30px;
+}
+#cta{
+	padding: 70px 50px 50px 50px;
+}
+#ful{
+	width: 35%;
+	margin: 50px 0 10px 0;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
