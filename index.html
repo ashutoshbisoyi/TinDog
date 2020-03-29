@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>TinDog</title>
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -18,20 +19,20 @@
       <div class="container-fluid">
         <!-- Nav Bar -->
         <nav class="navbar  navbar-expand-lg navbar-dark">
-          <a class="navbar-brand" href="">tindog</a>
+          <a class="navbar-brand wow data-wow bounceIn "  href="">tindog</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="">Contact</a>
+                <a class="nav-link wow bounceInDown" data-wow-delay="0.3s" href="">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Pricing</a>
+                <a class="nav-link wow bounceInDown" data-wow-delay="0.4s" href="">Pricing</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Download</a>
+                <a class="nav-link wow bounceInDown" data-wow-delay="0.5s" href="">Download</a>
               </li>
             </ul>
           </div>
@@ -39,12 +40,12 @@
         <!-- Title -->
         <div class="row" id="title-row">
           <div class="col-xl-6 col-lg-8 title-row-text ">
-            <h1>Meet new and interesting dogs nearby.</h1>
-            <button type="button" class="btn btn-dark btn-lg my-btn"><i class="fa fa-apple" aria-hidden="true"></i> Download</button>
-            <button type="button" class="btn btn-outline-light btn-lg my-btn" ><i class="fab fa-google-play"></i> Download</button>
+            <h1 class="wow fadeInLeft" data-wow-delay="0.2s">Meet new and interesting dogs nearby.</h1>
+            <button type="button" class="btn btn-dark btn-lg my-btn wow bounceInDown" data-wow-delay="0.4s"><i class="fa fa-apple" aria-hidden="true"></i> Download</button>
+            <button type="button" class="btn btn-outline-light btn-lg my-btn wow bounceInDown" data-wow-delay="0.4s" ><i class="fab fa-google-play"></i> Download</button>
           </div>
           <div class="col-xl-6 col-lg-4 title-row-image">
-            <img src="images/iphone6.png" class="title-image" alt="iphone-mockup">
+            <img src="images/iphone6.png" class="title-image wow zoomIn" data-wow-delay="0.2s" alt="iphone-mockup">
           </div>
         </div>
       </div>
@@ -225,6 +226,10 @@
         duration:1000
     });
   </script>
+  <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 
 </body>
 </html>
