@@ -288,16 +288,21 @@ p{
 	margin: 50px 0 10px 0;
 	padding: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
+.container-fluid{
+	padding: 3% 3%;
+}
+.navbar{
+	
+	padding: 0 0 4.5rem 0;
+}
+p{
+	font-size: 13px;
+}
+.card-body{
+	padding-bottom:0;
+}
+.btn{
+	margin-bottom:10px;
+}
 
 }
